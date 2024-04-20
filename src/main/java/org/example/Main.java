@@ -19,7 +19,7 @@ public class Main {
 
 
         WebElement input_password = driver.findElement(By.xpath("/html/body/main/div/form/div/div[1]/label[2]/input"));
-        input_password.sendKeys("password");
+        input_password.sendKeys("passWord");
         input_password.click();
 
     }
