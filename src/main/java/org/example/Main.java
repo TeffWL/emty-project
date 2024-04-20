@@ -15,7 +15,7 @@ public class Main {
 
         WebElement input = driver.findElement(By.xpath("//*[@id='my-text-id']"));
         input.click();
-        input.sendKeys("text");
+        input.sendKeys("text1");
 
 
         WebElement input_password = driver.findElement(By.xpath("/html/body/main/div/form/div/div[1]/label[2]/input"));
